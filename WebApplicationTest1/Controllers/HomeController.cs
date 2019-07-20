@@ -17,20 +17,15 @@ namespace WebApplicationTest1.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Esta aplicação WEB se destina a contar um pouco sobre Matheus Macedo, o criador desta aplicação.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Para contactar Matheus utilize as informações a seguir:";
 
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
             return View();
         }
 
